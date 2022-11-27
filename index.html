@@ -12,29 +12,25 @@
                     <a href="#" alt="" class="logo__img"></a>
                     <nav class="menu">
                         <ul class="menu__list">
-                            <li class="item__menu">
-                                <a href="#" class="link__item__menu">Главная</a>
+                            <li class="menu__item">
+                                <a href="#" class="menu__link">Главная</a>
                             </li>
-                            <li class="item__menu">
-                                <a href="" class="link__item__menu">Игры</a>
+                            <li class="menu__item">
+                                <a href="" class="menu__link">Игры</a>
                             </li>
-                            <li class="item__menu">
-                                <a href="#" class="link__item__menu">Отзывы</a>
+                            <li class="menu__item">
+                                <a href="#" class="menu__link">Отзывы</a>
                             </li>
                         </ul>
                     </nav>
                     <address class="contacts">
                         <a href="tel:+78007003030" class="contacts__phone">8 800 700 30 30</a>
-                        <div class="info">График работы</div>
-                            <div class="info_content">
-                                <div class="info_text">пн-вс: 09:00 - 20:00</div>
-                                <div class="info_text">Обед: 14:00-14:30</div>
-                            </div>
+                        <div class="contacts__info">График работы</div>
                     </address>
                 </div>
             </header>
             <main class="maincontent">
-                <section class="hello"></section>
+                <section class="hello">
                     <div class="container hello__container">
                         <h1 class="hello__title">
                             Интелектуальный вечер для шумной компании
@@ -44,9 +40,10 @@
                         </div>
                         <a href="#" class="button">Подробнее</a>
                     </div>
+                </section>
                 <section class="offers">
                     <div class="container offer__container">
-                        <h2 class="title title__new">Новинки недели</h2>
+                        <h2 class="title title--new">Новинки недели</h2>
                         <ul class="offers__list">
                             <li class="offers__item">
                                 <img src="#" alt="" class="offers__img">
@@ -54,12 +51,12 @@
                                     <h3 class="offers__title">Музыкальная игра</h3>
                                     <ul class="offers__features">
                                         <li class="offers__feature">
-                                            <img src="#" alt="" class="offers_feature-icon">
-                                            <div class="offers_feature-text">90 минут</div>
+                                            <img src="#" alt="" class="offers__feature-icon">
+                                            <div class="offers__feature-text">90 минут</div>
                                         </li>
                                         <li class="offers__feature">
-                                            <img src="#" alt="" class="offers_feature-icon">
-                                            <div class="offers_feature-text">70 вопросов</div>
+                                            <img src="#" alt="" class="offers__feature-icon">
+                                            <div class="offers__feature-text">70 вопросов</div>
                                         </li>
                                     </ul>
                                     <p class="offers__text">Равным образом постоянное обеспечение нашей деятельности позволяет оценить значение систем массового участия.</p>
@@ -72,12 +69,12 @@
                                     <h3 class="offers__title">Назад в 90-е</h3>
                                     <ul class="offers__features">
                                         <li class="offers__feature">
-                                            <img src="#" alt="" class="offers_feature-icon">
-                                            <div class="offers_feature-text">90 минут</div>
+                                            <img src="#" alt="" class="offers__feature-icon">
+                                            <div class="offers__feature-text">90 минут</div>
                                         </li>
                                         <li class="offers__feature">
-                                            <img src="#" alt="" class="offers_feature-icon">
-                                            <div class="offers_feature-text">70 вопросов</div>
+                                            <img src="#" alt="" class="offers__feature-icon">
+                                            <div class="offers__feature-text">70 вопросов</div>
                                         </li>
                                     </ul>
                                     <p class="offers__text">Равным образом постоянное обеспечение нашей деятельности позволяет оценить значение систем массового участия.</p>
@@ -90,12 +87,12 @@
                                     <h3 class="offers__title">IT-викторина</h3>
                                     <ul class="offers__features">
                                         <li class="offers__feature">
-                                            <img src="#" alt="" class="offers_feature-icon">
-                                            <div class="offers_feature-text">90 минут</div>
+                                            <img src="#" alt="" class="offers__feature-icon">
+                                            <div class="offers__feature-text">90 минут</div>
                                         </li>
                                         <li class="offers__feature">
-                                            <img src="#" alt="" class="offers_feature-icon">
-                                            <div class="offers_feature-text">70 вопросов</div>
+                                            <img src="#" alt="" class="offers__feature-icon">
+                                            <div class="offers__feature-text">70 вопросов</div>
                                         </li>
                                     </ul>
                                     <p class="offers__text">Равным образом постоянное обеспечение нашей деятельности позволяет оценить значение систем массового участия.</p>
@@ -109,12 +106,12 @@
                     <div class="container offer__container">
                         <h2 class="title">Прошедшие игры</h2>
                         <ul class="news__list">
-                            <li class="news__item" id="image_1">
+                            <li class="news__item">
                                 <time class="news__item-date">1 января</time>
                                 <h3 class="news__title">Новогодний кваз</h3>
                                 <div class="news__item-text">Успевайте забронировать даты. Пока еще есть места на декабрь. Удачи и всех благ!</div>
                             </li>
-                            <li class="news__item" id="image_2">
+                            <li class="news__item">
                                 <time class="news__item-date">8 марта</time>
                                 <h3 class="news__title">Весенняя игра</h3>
                                 <div class="news__item-text">Успевайте забронировать даты. Пока еще есть места на декабрь. Удачи и всех благ!</div>
@@ -136,7 +133,7 @@
                 </section>
                 <section class="about">
                     <div class="container about__container">
-                        <img src="#" alt="" class="about__picture--behind">
+                        <img src="#" alt="" class="about__picture">
                         <div class="about__us">
                             <h1 class="title">О нас</h1>
                             <p class="about__us-text">Сайт рыбатекст поможет дизайнеру, верстальщику, вебмастеру сгенерировать несколько абзацев более менее осмысленного текста рыбы на русском языке, а начинающему оратору отточить навык публичных выступлений в домашних условиях. </p>
@@ -149,35 +146,35 @@
         <footer class="footer">
             <div class="footer__container">
                 <img src="#" alt="" class="footer__logo">
-                <nav class="footer__menu">
-                    <ul class="footer__menu__list">
-                        <li class="footer__item__menu">
-                            <a href="#" class="footer__link__item">Главная</a>
+                <div class="footer__menu">
+                    <ul class="footer-menu__list">
+                        <li class="footer-menu__item">
+                            <a href="#" class="footer-menu__link">Главная</a>
                         </li>
-                        <li class="footer__item__menu">
-                            <a href="#" class="footer__link__item">Игры</a>
+                        <li class="footer-menu__item">
+                            <a href="#" class="footer-menu__link">Игры</a>
                         </li>
-                        <li class="footer__item__menu">
-                            <a href="#" class="footer__link__item">Отзывы</a>
-                        </li>
-                    </ul>
-                </nav>
-                <nav class="link__site">
-                    <ul class="link__list">
-                        <li class="link__item">
-                            <a href="#"><img src="#" alt=""></a>
-                        </li>
-                        <li class="link__item">
-                            <a href="#"><img src="#" alt=""></a>
-                        </li>
-                        <li class="link__item">
-                            <a href="#"><img src="#" alt=""></a>
-                        </li>
-                        <li class="link__item">
-                            <a href="#"><img src="#" alt=""></a>
+                        <li class="footer-menu__item">
+                            <a href="#" class="footer-menu__link">Отзывы</a>
                         </li>
                     </ul>
-                </nav>
+                </div>
+                <div class="footer__site">
+                    <ul class="site__list">
+                        <li class="site__item">
+                            <a href="#" class="site__link"><img src="#" alt="" class="site__image"></a>
+                        </li>
+                        <li class="site__item">
+                            <a href="#" class="site__link"><img src="#" alt="" class="site__image"></a>
+                        </li>
+                        <li class="site__item">
+                            <a href="#" class="site__link"><img src="#" alt="" class="site__image"></a>
+                        </li>
+                        <li class="site__item">
+                            <a href="#" class="site__link"><img src="#" alt="" class="site__image"></a>
+                        </li>
+                    </ul>
+                </div>
                 <div class="footer__contact">
                     <div class="footer__contact-text">Бесплатный звонок по России</div>
                     <a href="tel:+78007003030" class="contacts__phone">8 800 700 30 30</a>
